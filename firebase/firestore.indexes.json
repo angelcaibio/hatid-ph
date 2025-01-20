@@ -1,0 +1,54 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "delivery",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rider_name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "confirmation",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time_delivered",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "delivery",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rider_name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time_created",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "error",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rider_name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time_created",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
