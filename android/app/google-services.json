@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "375054126412",
+    "project_id": "hatidphtrial",
+    "storage_bucket": "hatidphtrial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375054126412:android:c060908c7e4795e48293e9",
+        "android_client_info": {
+          "package_name": "com.mycompany.hatidph"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXv2AM3MBmjE2rvh6XIJk4-idxwxM6Huk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
